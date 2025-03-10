@@ -8,4 +8,5 @@ EXERCITII EXERCITII STUDIU IN ECHIPA (Sesiunea 15)
 automat din Python, folosind libraria requests.
 """
 
+# Proiect separat
 # DONE

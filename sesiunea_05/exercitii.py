@@ -475,5 +475,5 @@ FOR - A for loop is best used when you know in advance how many times you want t
 
 7. while/else, in ce caz nu se va executa codul din else? - codul din else va fi executat de fiecare data cand conditia nu va fi adevarata
 exceptie: prezenta unui break inainte de else-ul while-ului
-daca conditi va fi mereu adevarata (bucla infinita)
+daca conditia va fi mereu adevarata (bucla infinita)
 """

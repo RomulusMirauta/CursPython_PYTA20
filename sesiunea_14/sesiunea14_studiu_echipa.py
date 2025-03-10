@@ -8,4 +8,5 @@ EXERCITII EXERCITII STUDIU IN ECHIPA (Sesiunea 14)
 manual din Postman.
 """
 
+# Proiect separat
 # DONE

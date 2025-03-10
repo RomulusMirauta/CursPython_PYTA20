@@ -1,6 +1,7 @@
 """
 EXERCITII WORKSHOP (Sesiunea 8)
 """
+import math
 
 
 # ------------------------------------------------------------------------------     Numaratoare automata     ------------------------------------------------------------------------------
@@ -39,10 +40,42 @@ triggered_function = create_triggered_function()
 
 triggered_function()
 
+class Cerc:
+    raza = None
+    culoare = None
 
+    def __init__(self, raza, culoare):
+        self.raza = raza
+        self.culoare = culoare
 
+    def descrie_cerc(self):
+        print(f"Cercul are raza {self.raza} si culoarea {self.culoare}")
 
+    def aria(self):
+        calcul_arie = math.pi * (self.raza ** 2)    # self.raza ** 2 = self.raza * self.raza
+        return f"Aria cercului este {calcul_arie}"
 
+    def diametru(self):
+        calcul_diametru = 2 * self.raza
+        return f"Diametrul cercului este {calcul_diametru}"
+
+    def circumferinta(self):
+        calcul_circumferinta = 2 * math.pi * self.raza
+        return f"Circumferinta cercului este {calcul_circumferinta}"
+
+# TESTING
+cerc1 = Cerc(2, "albastru")
+cerc2 = Cerc(29, "verde")
+
+# cerc1.descrie_cerc()
+# print(cerc1.aria())
+# print(cerc1.diametru())
+# print(cerc1.circumferinta())
+
+cerc2.descrie_cerc()
+print(cerc2.aria())
+print(cerc2.diametru())
+print(cerc2.circumferinta())
 
 
 
@@ -62,3 +95,48 @@ triggered_function()
 
 triggered_function()
 
+class Dreptunghi:
+    lungime = None
+    latime = None
+    culoare = None
+
+    def __init__(self, lungime, latime, culoare):
+        self.lungime = lungime
+        self.latime = latime
+        self.culoare = culoare
+
+    def descrie(self):
+        return print(f"Dreptunghiul are lungimea {self.lungime}, latimea {self.latime} si culoarea {self.culoare}")
+
+    def aria(self):
+        arie_calcul = self.lungime * self.latime
+        print(f"Aria dreptunghiului este {arie_calcul}")
+
+    def perimetrul(self):
+        perimetru_calcul = 2 * (self.lungime + self.latime)
+        print(f"Perimetrul dreptunghiului este {perimetru_calcul}")
+
+    def schimba_culoarea(self, noua_culoare):
+        # self.noua_culoare = str(input("Introduceti noua culoare: "))
+        self.culoare = noua_culoare
+
+
+# TESTING
+dreptunghi1 = Dreptunghi(4,2, "violet")
+dreptunghi2 = Dreptunghi(40, 20, "silver")
+
+
+# dreptunghi1.descrie()
+# dreptunghi1.aria()
+# dreptunghi1.perimetrul()
+#
+# dreptunghi1.schimba_culoarea("alb")
+# dreptunghi1.descrie()
+
+
+dreptunghi2.descrie()
+dreptunghi2.aria()
+dreptunghi2.perimetrul()
+
+dreptunghi2.schimba_culoarea("negru")
+dreptunghi2.descrie()

@@ -8,4 +8,5 @@ Sesiunea 15 - Exercitii cu Trainer
 automat din Python, folosind libraria requests.
 """
 
+# Proiect separat
 # DONE
