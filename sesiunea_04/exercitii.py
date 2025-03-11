@@ -420,4 +420,3 @@ if 'Mihaela' in contacte.keys():
     print("Ai numarul Mihaelei.")
 else:
     print("NU ai numarul Mihaelei.")
-

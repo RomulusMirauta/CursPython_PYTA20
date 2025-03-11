@@ -141,3 +141,4 @@ else:
 
 
 # de lucrat individual - ex: 12, 14
+# DONE

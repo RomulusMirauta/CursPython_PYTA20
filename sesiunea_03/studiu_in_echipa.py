@@ -228,7 +228,7 @@ print(f"Numerele impare sunt: {string[1::2]}")
 
 
 """
-EXERCITII RECOMANDATE - STUDIU INDIVIDUAL                                        .
+EXERCITII RECOMANDATE - STUDIU INDIVIDUAL                                        
 
 1. Revizualizeaza sesiunile din aceasta saptamana si ia notite in caz ca ti-a scapat ceva.
 
@@ -236,3 +236,5 @@ EXERCITII RECOMANDATE - STUDIU INDIVIDUAL                                       
 - Variabile si Tipuri de date
 - Operatori si Flow Control.
 """
+
+# DONE

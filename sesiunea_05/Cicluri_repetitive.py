@@ -140,7 +140,3 @@ for i in range(0, 11): #folosim bucla for pt a itera prin nr de la 0 la 10
     print(f"valoare {i} dupa if")
     suma += i #daca i este impar atunci se adauga la suma
 print(f"Suma numerelor impare de la 0 la 10 este: {suma}") #aici printam suma nr pt intervalul dat folosind formatarea sirului de caractere
-
-
-
-

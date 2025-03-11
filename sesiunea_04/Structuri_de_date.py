@@ -113,3 +113,13 @@ Efectueaza toate operatiile pe cele 2 variabile,
 folosind operatorii aritmetici.
 """
 
+x = 10
+z = 2
+
+print(x + z)
+print(x - z)
+print(x * z)
+print(x / z)
+print(x // z)   # împărțire întreagă
+print(x % z)    # modulo (restul împărțirii lui x la z)
+print(x ** z)   # ridicare la putere
