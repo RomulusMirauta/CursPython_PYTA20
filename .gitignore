@@ -178,3 +178,4 @@ pyrightconfig.json
 
 .idea/
 *curs_*.md
+*.sh
