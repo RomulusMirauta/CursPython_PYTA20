@@ -302,4 +302,4 @@ daca nu vrei sa ne zici cand e ziua ta :)
 # de folosit implementarea self.email = None
 # metoda validare: password = confirm password
 
-
+# DONE

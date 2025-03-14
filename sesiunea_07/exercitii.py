@@ -193,7 +193,8 @@ triggered_function()
 
 
 
-# tema: 7, 5, 4 - DONE
+# tema: 7, 5, 4
+# DONE
 
 
 
