@@ -63,3 +63,6 @@ cu noile date
 - actualizeaza produse
 - sterge produse
 """
+
+# Proiect separat
+# DONE

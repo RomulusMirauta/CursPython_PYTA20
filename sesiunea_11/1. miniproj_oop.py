@@ -85,3 +85,6 @@ in care spunem utilizatorului ca taxa e de 5000 lei, a fost platita cu succes si
 restul de bani ce ii dam inapoi.
     - daca e exact 5000, atunci setam taxa.
 """
+
+# Proiect separat
+# DONE
